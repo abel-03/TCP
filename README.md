@@ -10,10 +10,13 @@
 $ g++ server.cpp -o server
 $ ./server 12345
 
+```
+
 Потом запускаем клиент. Указываем сообщение, порт и таймаут
 
+```
 $ g++ client.cpp -o client
 $ ./client Abel 12345 1
 $ ./client Mirumyan 12345 2
 $ ./client Valerevich 12345 3
-
+```
